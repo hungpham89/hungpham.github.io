@@ -1,21 +1,367 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<title>Trung Dang</title>
-<<<<<<< HEAD
-<link rel = "icon" href = "https://raw.githubusercontent.com/dang-trung/dang-trung.github.io/master/TD%20icon.ico?token=AG3TNPIEUU7OUBZMC5UL7WC7YJGNC"/>
-=======
-<link rel = "icon" href = "https://raw.githubusercontent.com/dang-trung/dang-trung.github.io/master/T%20logo.ico?token=AG3TNPKRHB4NPU3IYDPUMB27YCVBI"/>
->>>>>>> parent of afd8b54... Update index.html
-<style type="text/css">
-body {margin:0; height:75%; overflow:hidden; zoom: 75%;}
-iframe {padding:0;border:0;position:absolute;width:100%;height:100%;}
-</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trung Dang</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-<iframe src="https://flowcv.me/trung-dang"></iframe>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                  <h1>Trung Dang</h1>
+                  </br>
+                    <h4>Pursuing My Career in Quantitative Finance</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
+
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container" style="width: 80">
+            <div class="col-md-6" data-aos="fade-up">
+                <h5>01</h4>
+                <h1 class="size-50">About <br /> Myself</h1>
+                <div class="h-50" style="text-align:justify"></div>
+                <p>Hello, thank you for stopping by! My name is Trung and I come from  <a href="https://en.wikipedia.org/wiki/Hanoi">Hanoi, Vietnam</a>.
+                  In 2018, I moved to Italy to pursue a Master's in Finance at the <a href="https://www.unive.it/pag/13526/">Ca' Foscari University of Venice.</a>
+                </p>
+                </br>
+                <p>My passion is to solve real-world problems that have to involve numerical patterns and statistics.
+                  A key quality that makes me who I am today is my habit to keep a balance between meticulousness and pragmatism​.
+                </p>
+                </br>
+                <p>
+                  In the last 2 years, I've taught myself how to program in Python, MATLAB, and R.
+                  Check out my previous works <a href="https://github.com/dang-trung">here</a>!
+                </p>
+                  <div class="h-50"></div> <img src="img/Signature.png" width="150" alt="" />
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+            </br></br></br></br></br></br></br></br></br>
+                <img src="img/about-img.png" width="300" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h5>02</h4>
+                <h1 class="size-50">Experience</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Sep 2020 - Present</p>
+                            <h3>Research Assistant Intern</h3>
+                            <h5><a href="https://www.unive.it/pag/35190/" style="color: #1988f7">Center VERA (Università Ca'​ Foscari Venezia)</a></h5>
+                            <ul style="list-style-type:disc">
+                              <li>Implemented sentiment classification for a highly imbalanced dataset of
+                                1M+ StockTwits messages with 75% accuracy using a combination of methods:
+                                tf-idf (text vectorization), truncated SVD (dimension reduction), and random forest
+                              </li>
+                              <li>
+                                Trained multiple models to forecast price directions of cryptocurrencies,
+                                with the best-performing model being a random forest classifier (62% accuracy,
+                                trading strategy simulated based on its predictions generated ~5x daily returns
+                                of the market during the test period)
+                              </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Feb 2018 - July 2018</p>
+                            <h3>Operation Manager Assistant</h3>
+                            <h5><a href="https://www.urbox.vn" style="color: #1988f7">UrBox - Digital Rewards & Loyalty Solution</a></h5>
+                            <ul style="list-style-type:disc">
+                              <li>
+                                Managed the digital warehouse, the B2C e-commerce website, and B2B loyalty campaigns
+                              </li>
+                              <li>
+                                Renovated the process of handling new partnerships to get the products on-site in a significantly shorter amount of time (initially ~10 days to ~2 days after implementation)
+                              </li>
+                            </ul>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+
+    <!-- education  -->
+    <div class="section" id="education">
+        <div class="container">
+            <div class="col-md-12">
+                <h5>03</h4>
+                <h1 class="size-50">Education</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon" style="outline: 10px solid #fff"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Sep 2018 - Oct 2020</p>
+                            <h3>Master's degree in Finance</h3>
+                            <h5><a href="https://www.unive.it/pag/13256/" style="color: #1988f7">Ca’ Foscari University of Venice</a></h5>
+                            <ul style="list-style-type:disc">
+                              <li>
+                                GPA: 28.9/30 (Graduated with Distinction)
+                              </li>
+                              <li>
+                                Scholarship for High-Achieving International Students
+                              </li>
+                              <li>
+                                Courses: Stochastic Calculus, Statistics, Econometrics, Computational Finance, Derivatives, Behavioral Finance                              </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon" style="outline: 10px solid #fff"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">May 2019 - Jun 2019</p>
+                            <h3>Visiting Student (Bloomberg Terminal Training)</h3>
+                            <h5>Stevens Institute of Technology</h5>
+                            <ul style="list-style-type:disc">
+                              <li>
+                                1 of 5 students from Ca' Foscari Class of Finance '18 elected for <a href="https://www.stevens.edu/news/business-fintech-italian-exchange-program">the visit</a>
+                              </li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon" style="outline: 10px solid #fff"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">May 2019 - Jun 2019</p>
+                            <h3>Bachelor in International Economics</h3>
+                            <h5><a href="http://english.ftu.edu.vn/" style="color: #1988f7">Foreign Trade University</a></h5>
+                          </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon" style="outline: 10px solid #fff"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Sep 2007 - Jun 2014</p>
+                            <h3>Specialized in Mathematics</h3>
+                            <h5><a href="http://hn-ams.edu.vn/en" style="color: #1988f7">Hanoi-Amsterdam High School for the Gifted</a></h5>
+                            <ul style="list-style-type:disc">
+                              <li>
+                                The most competitive high school in Vietnam (with <a href="https://en.wikipedia.org/wiki/Hanoi_%E2%80%93_Amsterdam_High_School#:~:text=Out%20of%20approximately%204%2C000%20students,at%20the%20high%20school%20level.">admission rate under 5%)</a>
+                              </li>
+                            </ul>
+                          </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h5>04</h4>
+                <h1 class="size-50">Projects</h1>
+            </div>
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                        <!-- portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <li><a href="" data-filter=".python">Python</a></li>
+                                    <li><a href="" data-filter=".matlab">MATLAB</a></li>
+                                    <li><a href="" data-filter=".r">R</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- portfolio_filter -->
+
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                          <!-- single work -->
+                          <div class="col-md-4 col-sm-6 python">
+                            <a href="https://github.com/dang-trung/crypto-sentiment-index" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                              <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                  <div class="item_info"> <span>A Composite Crypto Sentiment Index (Master's Dissertation)</span><em>Python</em>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                          <!-- end single work -->
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 python">
+                                <a href="https://github.com/dang-trung/crypto-return-predictor" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Predicting Cryptocurrency Returns</span><em>Python</em>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 python">
+                                <a href="https://github.com/dang-trung/stocktwits-sentiment-classifier" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>StockTwits Sentiment Classifier</span><em>Python</em>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 matlab">
+                                <a href="https://github.com/dang-trung/matlab-comp-finance" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Implementations of Monte Carlo simulation in valuing exotic options & estimating the Greeks</span><em>MATLAB</em>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
+                </div>
+                <!-- end portfolio div -->
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
+    <!-- ./projects -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h5>04</h4>
+                <h1 class="size-50">Get in Touch</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-25" data-aos="fade-up" style="text-align: center;">
+
+                <p>Whether it is a work opportunity, a collaboration request, or just to say hello, please do not hesitate to contact me via:</p>
+                <ul class="social" style="justify-content: center; display: flex">
+
+                  <li><a href="mailto:dangtrung@gmail.com"><i class="ion-email"></i></a></li>
+                  <li><a href="https://github.com/dang-trung"><i class="ion-social-github"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/dang-trung"><i class="ion-social-linkedin"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ./contact -->
+
+    <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                        <div class="h-50"></div>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
